@@ -1,0 +1,21 @@
+def check_range(num: int) -> str:
+    if num < 0:
+        return "negative"
+    if num == 0: 
+        return "zero"
+    if num > 10:
+        return "positive multi digit"
+    return "positive single digit"
+
+
+
+
+
+
+
+  
+# don't modify code below this line
+print(check_range(-10))
+print(check_range(0))
+print(check_range(9))
+print(check_range(1000))
